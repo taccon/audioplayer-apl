@@ -1,6 +1,6 @@
-# audioplayer3 APL
+# taccon audioplayer playlist formats
 
-This repository describes APL playlist formats for taccon audioplayer.
+This repository describes APL playlist format for taccon audioplayer in several versions.
 
 ## Playlist formats for taccon audioplayer so far
 
@@ -47,7 +47,7 @@ Sample playlist file
 
 ### Chorus Web XML (APX)
 
-In 2010 a Flash-based web version of audioplayer was introduced (named *Chorus*). It supported the XML based APX format which was planned to also be the future default playlist format for upcoming Desktop versions of the player. The idea was to allow simple export for artists from the Desktop player to the web player to make songs available to their audience.
+In 2010 a [Flash-based web version](http://audioplayer.taccon.com) of audioplayer was introduced (named *Chorus*). It supported the XML based APX format which was also planned to be the future default playlist format for upcoming Desktop versions of the audioplayer. The idea was to allow simple export for artists from the Desktop player to the web player to make songs available to their audience.
 
 Sample playlist file
 
