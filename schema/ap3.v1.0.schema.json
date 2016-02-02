@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": "Definition for taccon audioplayer3 playlist format (AP3)",
+    "type": "object",
+    "required": [
+        "name",
+        "entries"
+    ],
+    "properties": {
+        "name": {
+            "description": "Display name of playlist",
+            "type": "string"
+        },
+        "artist": {
+            "description": "An artist for the whole playlist. Used when no artist is given for a single entry.",
+            "type": "string"
+        },
+        "album": {
+            "description": "An album for the whole playlist. Used when no album is given for a single entry.",
+            "type": "string"
+        },
+        "start": {
+            "description": "Index of playlist entry (0..n) to activate initially.",
+            "type": "integer"
+        },
+        "shuffle": {
+            "description": "Option to enable / disable shuffle mode for playlist.",
+            "type": "boolean"
+        },
+        "entries": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "source"
+                ],
+                "properties": {
+                    "source": {
+                        "description": "File name or URL to audio data.",
+                        "type": "string"
+                    },
+                    "title": {
+                        "description": "Title of playlist entry.",
+                        "type": "string"
+                    },
+                    "artist": {
+                        "description": "Artist for playlist entry. Overrides artist from playlist if given.",
+                        "type": "string"
+                    },
+                    "album": {
+                        "description": "Album for playlist entry. Overrides album from playlist if given.",
+                        "type": "string"
+                    },
+                    "length": {
+                        "description": "Length of the given entry in seconds.",
+                        "type": "number"
+                    }
+                }
+            }
+        }
+    }
+}
