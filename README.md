@@ -4,14 +4,14 @@ This repository describes APL playlist format for taccon audioplayer in several 
 
 ## Playlist formats for taccon audioplayer so far
 
-- APL (ini based) (~2000)
+- APL (text file) (~2000)
 - AP2 (ini based) (~2004)
 - APX (xml based) (2010)
 - AP3 (json) (2016)
 
 ### Audioplayer Playlist (APL)
 
-When the first version of audioplayer that supported playlists was released approx. in 2000, APL was introduced to store them. It was a very simple INI based format.
+When the first version of audioplayer that supported playlists was released approx. in 2000, APL was introduced to store them. It was a very simple text-file format that just had one entry per playlist file.
 
 ### APL v2 (AP2)
 
